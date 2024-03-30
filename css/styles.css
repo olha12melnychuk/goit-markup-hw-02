@@ -1,5 +1,10 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -9,11 +14,7 @@
 .accent {
   color: #2e2f42;
 }
-body {
-  font-family: Roboto, Raleway, sans-serif;
-  color:#434455;
-  background-color: #FFFFFF;
-}
+
 .page-nav .link {
   font-weight: 500;
   font-size: 16px;
@@ -33,7 +34,7 @@ text-decoration: underline;
   color: #434455;
 }
 .address-list .link:hover,
-.adress-list .link:focus {
+.address-list .link:focus {
   color: #404BBF;
 }
 .section-one {
