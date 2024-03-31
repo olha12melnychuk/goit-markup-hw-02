@@ -41,7 +41,7 @@ text-decoration: underline;
 }
 .address-list .link {
 line-height: 1.5;
-letter-spacing: 0.0em;
+letter-spacing: 0.2em;
 color: #434455;
 }
 .address-list .link:hover,
