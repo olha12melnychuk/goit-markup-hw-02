@@ -12,6 +12,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  text-transform: uppercase;
   color: #4D5AE5;
   letter-spacing: 0.03em;
 }
@@ -32,6 +33,9 @@ a {
 }
 .page-nav .link:active {
 text-decoration: underline;
+}
+.address-list {
+  font-style: normal;
 }
 .address-list .link:hover,
 .address-list .link:focus {
@@ -85,6 +89,7 @@ text-decoration: underline;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .page-end .accent {
   font-style: "Raleway", sans-serif;
