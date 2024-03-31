@@ -27,8 +27,8 @@ a {
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
-.page-link .link:hover,
-.page-link .link:focus,
+.page-link:hover,
+.page-link:focus,
 .address-link .link:hover,
 .address-link .link:focus {
   color: #404BBF;
@@ -41,7 +41,7 @@ text-decoration: underline;
 }
 .address-list .link {
 line-height: 1.5;
-letter-spacing: 0.2em;
+letter-spacing: 0.02em;
 color: #434455;
 }
 .address-list .link:hover,
