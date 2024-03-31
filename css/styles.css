@@ -3,6 +3,9 @@ body {
   color: #434455;
   background-color: #FFFFFF;
 }
+a {
+  text-decoration: none;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -37,6 +40,12 @@ text-decoration: underline;
 .address-list .link:focus {
   color: #404BBF;
 }
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 .section-one {
   background-color: #2E2F42;
 }
@@ -54,13 +63,7 @@ text-decoration: underline;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
-.section-two .underheader {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
+  cursor: pointer;
 }
 .section-two .text {
   font-weight: 400;
@@ -79,13 +82,7 @@ text-decoration: underline;
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
-.section-three .underheader {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-}
+
 .section-three .text {
   font-weight: 400;
   font-size: 16px;
